@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Ramoulaki</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .hidden { display: none; }
+        nav { background: #f8a1f4; padding: 17px; }
+        nav a { margin: 0 20px; text-decoration: none; font-weight: bold; }
+        .page { display: none; }
+        .active { display: block; }
+        #image-container img { width: 350px; position: absolute; right: 20px; top: 50px; }
+        #image-container-2 img { width: 300px; position: absolute; left:20px; top:50px; }
+        .image-text { cursor: pointer; }
+        body {
+            background-color: #E0B0FF; 
+        }
+        
+    button {
+        font-size: 18px; 
+        padding: 12px 25px; 
+        margin-top: 30px; 
+        margin-right: 30px;
+        margin-left: 30px; 
+        cursor: pointer; 
+        background-color: #B95CF4; 
+        color: white;
+        border: none; 
+        border-radius: 8px; 
+        transition: background-color 0.3s ease; 
+    }
+
+    button:hover {
+        background-color: #9b4cd1; 
+    }
+    </style>
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+    <nav style="font-size: 22px;">
+        <a href="#" onclick="showPage('startup')">Appreciation :3</a>
+        <a href="#" onclick="showPage('images')">Favourite memories</a>
+        <a href="#" onclick="showPage('epilogue')">Epilogue</a>
+    </nav>
+    
+    <div id="startup" class="page active">
+        <h1 style="color: #B95CF4; font-family: Copperplate, serif;">Happy Valentine's Day Ram!!</h1>
+        <p style="font-family: Monaco, monospace;">Valentine's day is the day where we show our love and appreciation</p>
+        <p style="font-family: Monaco, monospace;">for those who we love. This day is a good excuse for me to express</p>
+        <p style="font-family: Monaco, monospace;">my love for you without needing to explain why :D</p>
+        <p style="font-family: Monaco, monospace;">Even if you ever feel like you're not loved or</p>
+        <p style="font-family: Monaco, monospace;">appreciated by your friends, never doubt my love for you.</p>
+        <p style="font-family: Monaco, monospace;">No matter what happens or where we end up in this life,</p>
+        <p style="font-family: Monaco, monospace;">the light of my love for you will never burn out. It's everlasting!</p>
+        <p style="font-family: Monaco, monospace;">I'm proud of how far we've come together and how strong our bond it</p>
+        <p style="font-family: Monaco, monospace;">You'll always be my favourite person, my most unique, special and beloved</p>
+        <p style="font-family: Monaco, monospace;">Click the buttons below for a little surprise ^_^</p>
+        <button onclick="showImage()">Mar</button>
+        <div id="image-container" class="hidden">
+            <img src="/Users/admin/Desktop/Screenshot 2025-02-13 at 11.09.43-Photoroom.png" alt="Popup Image">
+        </div>
+        <button onclick="showImage2()">Ram</button>
+        <div id="image-container-2" class="hidden">
+            <img src="/Users/admin/Desktop/Ramouli.webp" alt="Popup Image">
+        </div>
+    </div>
+
+    <div id="images" class="page">
+        <div class="flip-card">
+            <div class="flip-card-inside">
+                <div class="flip-card-front">
+                    <img src="/Users/admin/Desktop/card1.png" alt="Image 1">
+                </div>
+                <div class="flip-card-back">
+                    <p>No memory comes close to the 10th of October.
+                    That's the day we met, the day I was blessed with
+                    getting to know you. You're the highlight of my life.
+                    I'll never forget the excitement I felt when I met you,
+                    You were shining brighter than anyone else to my eyes
+                    and even after all these years, you still do.
+                </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="flip-card">
+            <div class="flip-card-inside">
+                <div class="flip-card-front">
+                    <img src="/Users/admin/Desktop/card3.png" alt="Image 2">
+                </div>
+                <div class="flip-card-back">
+                    <p>This one holds a special place in my heart.
+                        That's because it's the first physical thing 
+                        you had ever made for me :D It was also the first
+                        time I saw your handwriting. I always smile so much
+                        when I see the greek writing, k'ego sagapo poli.
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="flip-card">
+            <div class="flip-card-inside">
+                <div class="flip-card-front">
+                    <img src="/Users/admin/Desktop/Screenshot 2025-02-13 at 11.50.48.png" alt="Image 3">
+                </div>
+                <div class="flip-card-back">
+                    <p>The 16th of April, 2023. That's the day we officially started dating.
+                        We made jokes about how it's the 16th for me but the 17th for you hehe.
+                        Being with you was such a one of a kind experience.
+                        I still look back at those days with a smile.
+                        I appreciate you for everything you've done for me. It was a magical year. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="flip-card">
+            <div class="flip-card-inside">
+                <div class="flip-card-front">
+                    <img src="/Users/admin/Desktop/card_5.png" alt="Image 4">
+                </div>
+                <div class="flip-card-back">
+                    <p>Do I have to elaborate? Truly one of the sweetest things
+                        anyone has ever or will ever do for me. How come
+                        you always top the charts of sweetness and kindness? :3 
+                        You've always been so creative to me, your mind works wonders!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inside">
+                <div class="flip-card-front">
+                    <img src="/Users/admin/Desktop/card4.png" alt="Image 5">
+                </div>
+                <div class="flip-card-back">
+                    <p>Added a digimon picture, but I seriously enjoy watching
+                        movies/series with you SO MUCH!!! It's like a dream
+                        come true, I used to dream of such days. You always find 
+                        the best things for us to watch. Here's to many more movie nights!! :D             
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="flip-card">
+            <div class="flip-card-inside">
+                <div class="flip-card-front">
+                    <img src="/Users/admin/Desktop/Screenshot 2025-02-13 at 11.38.18.png" alt="Image 6">
+                </div>
+                <div class="flip-card-back">
+                    <p>Best for last. The entire birthday server made me so emotional,
+                        I wish I could include the entire thing. I loved it, I love it,
+                        and I'll never ever forget it. You made me so happy that night,
+                        I can't even put it into words. You're so special to me and
+                        knowing that you dedicated so much time on me is true happiness.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        
+    <div id="epilogue" class="page">
+    <h1 style="color: #B95CF4; font-family: Copperplate, serif;">To my lovely Rami...</h1>
+    <p style="font-family: Monaco, monospace;">To finish this up, I'll just remind you once again that</p>
+        <p style="font-family: Monaco, monospace;">you're truly my favourite person ever. I enjoy my time with you,</p>
+        <p style="font-family: Monaco, monospace;">I enjoy our talks every single day, I never feel as if the time we spend </p>
+        <p style="font-family: Monaco, monospace;">together is a waste of time, time is precious, but the time I spend with</p>
+        <p style="font-family: Monaco, monospace;">you is more than precious. You make life worth living, you give meaning to</p>
+        <p style="font-family: Monaco, monospace;">everything that surrounds me. I feel so strongly connected to you and this</p>
+        <p style="font-family: Monaco, monospace;">connection only gets stronger as the days go by. Sometimes I think that I love you</p>
+        <p style="font-family: Monaco, monospace;">a little too much, but even if that's true, I only find peace and comfort in that.</p>
+        <p style="font-family: Monaco, monospace;">I hope you liked this, I'm sorry that the sprites were a bit bad, I tried to make sure</p>
+        <p style="font-family: Monaco, monospace;">to add something of your taste, even if it's not of the best quality :D</p>
+        <p style="font-family: Monaco, monospace;">I still dream about the day we'll be together in Athens like this. </p>
+        <img src="/Users/admin/Desktop/Screenshot 2025-02-13 at 15.24.30.png" alt="Epilogue Image">
+    </div>
+    
+    <script>
+        function showPage(pageId) {
+            document.querySelectorAll('.page').forEach(page => {
+                page.classList.remove('active');
+            });
+            document.getElementById(pageId).classList.add('active');
+        }
+
+        function showImage() {
+            document.getElementById('image-container').classList.toggle('hidden');
+        }
+
+        function showImage2() {
+            document.getElementById('image-container-2').classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
